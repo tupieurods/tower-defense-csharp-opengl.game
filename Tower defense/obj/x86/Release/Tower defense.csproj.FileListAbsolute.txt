@@ -9,3 +9,4 @@ C:\Users\Elun\Desktop\Tower Defence C#\Game\Tower defense\obj\x86\Release\Tower 
 C:\Users\Elun\Desktop\Tower Defence C#\Game\Tower defense\obj\x86\Release\Tower_defense.GameForm.resources
 C:\Users\Elun\Desktop\Tower Defence C#\Game\Tower defense\bin\Release\GameCoClassLibrary.dll
 C:\Users\Elun\Desktop\Tower Defence C#\Game\Tower defense\bin\Release\GameCoClassLibrary.pdb
+C:\Users\Elun\Desktop\Tower Defence C#\Game\Tower defense\obj\x86\Release\Tower_defense.GameConfSelector.resources

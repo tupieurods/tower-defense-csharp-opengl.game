@@ -19,5 +19,20 @@ namespace Tower_defense
       InitializeComponent();
     }
 
+    private void MenuNewGame_Click(object sender, EventArgs e)
+    {
+      GameConfSelector SelectorForm = new GameConfSelector();
+      if (SelectorForm.ShowDialog() == DialogResult.OK)
+      {
+        Game = TGame.Factory(PBGame,SelectorForm.ReturnConfigName());
+        if (Game == null)
+        {
+          Environment.Exit(1);
+        }
+        else
+          MessageBox.Show("Game conf loaded successeful");
+      }
+    }
+
   }
 }

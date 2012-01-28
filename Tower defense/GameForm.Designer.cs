@@ -77,6 +77,7 @@
       this.MenuNewGame.Name = "MenuNewGame";
       this.MenuNewGame.Size = new System.Drawing.Size(129, 22);
       this.MenuNewGame.Text = "NewGame";
+      this.MenuNewGame.Click += new System.EventHandler(this.MenuNewGame_Click);
       // 
       // MenuPause
       // 
@@ -113,6 +114,7 @@
       this.MainMenuStrip = this.mSMenuNonGraphical;
       this.Margin = new System.Windows.Forms.Padding(6);
       this.Name = "GameForm";
+      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "Tower defense pre-alpha";
       ((System.ComponentModel.ISupportInitialize)(this.PBGame)).EndInit();
       this.mSMenuNonGraphical.ResumeLayout(false);
