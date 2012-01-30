@@ -44,9 +44,9 @@
       // PBGame
       // 
       this.PBGame.Image = ((System.Drawing.Image)(resources.GetObject("PBGame.Image")));
-      this.PBGame.Location = new System.Drawing.Point(12, 27);
+      this.PBGame.Location = new System.Drawing.Point(0, 25);
       this.PBGame.Name = "PBGame";
-      this.PBGame.Size = new System.Drawing.Size(700, 500);
+      this.PBGame.Size = new System.Drawing.Size(700, 600);
       this.PBGame.TabIndex = 0;
       this.PBGame.TabStop = false;
       // 
@@ -56,7 +56,7 @@
             this.MenuMain});
       this.mSMenuNonGraphical.Location = new System.Drawing.Point(0, 0);
       this.mSMenuNonGraphical.Name = "mSMenuNonGraphical";
-      this.mSMenuNonGraphical.Size = new System.Drawing.Size(725, 24);
+      this.mSMenuNonGraphical.Size = new System.Drawing.Size(703, 24);
       this.mSMenuNonGraphical.TabIndex = 1;
       this.mSMenuNonGraphical.Text = "menuStrip1";
       // 
@@ -107,12 +107,15 @@
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(725, 534);
+      this.AutoScroll = true;
+      this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+      this.ClientSize = new System.Drawing.Size(703, 629);
       this.Controls.Add(this.PBGame);
       this.Controls.Add(this.mSMenuNonGraphical);
       this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
       this.MainMenuStrip = this.mSMenuNonGraphical;
       this.Margin = new System.Windows.Forms.Padding(6);
+      this.MaximizeBox = false;
       this.Name = "GameForm";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "Tower defense pre-alpha";
