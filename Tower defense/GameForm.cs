@@ -24,13 +24,21 @@ namespace Tower_defense
       GameConfSelector SelectorForm = new GameConfSelector();
       if (SelectorForm.ShowDialog() == DialogResult.OK)
       {
-        Game = TGame.Factory(PBGame,SelectorForm.ReturnConfigName());
+        Game = TGame.Factory(PBGame,GameTimer,SelectorForm.ReturnConfigName());
         if (Game == null)
         {
           Environment.Exit(1);
         }
         else
           MessageBox.Show("Game conf loaded successeful");
+      }
+    }
+
+    private void PBGame_MouseUp(object sender, MouseEventArgs e)
+    {
+      if (Game != null)
+      {
+        Game.MousePressed(e);
       }
     }
 
