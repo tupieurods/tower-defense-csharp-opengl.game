@@ -38,7 +38,7 @@ namespace Tower_defense
     {
       if (Game != null)
       {
-        Game.MousePressed(e);
+        Game.MouseUp(e);
       }
     }
 
