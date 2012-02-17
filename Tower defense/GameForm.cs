@@ -12,7 +12,7 @@ namespace Tower_defense
 {
   public partial class GameForm : Form
   {
-    private TGame Game=null;
+    private TGame Game = null;
 
     public GameForm()
     {
@@ -21,10 +21,15 @@ namespace Tower_defense
 
     private void MenuNewGame_Click(object sender, EventArgs e)
     {
+      if (Game != null)
+      {
+        Game.GetFreedomToTimer();
+        Game = null;
+      }
       GameConfSelector SelectorForm = new GameConfSelector();
       if (SelectorForm.ShowDialog() == DialogResult.OK)
       {
-        Game = TGame.Factory(PBGame,GameTimer,SelectorForm.ReturnConfigName());
+        Game = TGame.Factory(PBGame, GameTimer, SelectorForm.ReturnConfigName());
         if (Game == null)
         {
           Environment.Exit(1);
@@ -39,6 +44,22 @@ namespace Tower_defense
       if (Game != null)
       {
         Game.MouseUp(e);
+      }
+    }
+
+    private void PBGame_MouseMove(object sender, MouseEventArgs e)
+    {
+      if (Game != null)
+      {
+        Game.MouseMove(e);
+      }
+    }
+
+    private void MenuScaling0d2_Click(object sender, EventArgs e)
+    {
+      if (Game != null)
+      {
+        Game.Scaling = Convert.ToSingle((sender as ToolStripMenuItem).Text);
       }
     }
 

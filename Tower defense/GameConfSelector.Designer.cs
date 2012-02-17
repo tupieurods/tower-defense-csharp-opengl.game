@@ -38,7 +38,7 @@
       this.LBGameConf.FormattingEnabled = true;
       this.LBGameConf.ItemHeight = 24;
       this.LBGameConf.Location = new System.Drawing.Point(22, 22);
-      this.LBGameConf.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+      this.LBGameConf.Margin = new System.Windows.Forms.Padding(6);
       this.LBGameConf.Name = "LBGameConf";
       this.LBGameConf.Size = new System.Drawing.Size(473, 124);
       this.LBGameConf.TabIndex = 0;
@@ -46,7 +46,7 @@
       // BSelect
       // 
       this.BSelect.Location = new System.Drawing.Point(22, 161);
-      this.BSelect.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+      this.BSelect.Margin = new System.Windows.Forms.Padding(6);
       this.BSelect.Name = "BSelect";
       this.BSelect.Size = new System.Drawing.Size(138, 42);
       this.BSelect.TabIndex = 1;
@@ -57,7 +57,7 @@
       // BCancel
       // 
       this.BCancel.Location = new System.Drawing.Point(361, 161);
-      this.BCancel.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+      this.BCancel.Margin = new System.Windows.Forms.Padding(6);
       this.BCancel.Name = "BCancel";
       this.BCancel.Size = new System.Drawing.Size(138, 42);
       this.BCancel.TabIndex = 2;
@@ -74,7 +74,8 @@
       this.Controls.Add(this.BSelect);
       this.Controls.Add(this.LBGameConf);
       this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-      this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+      this.Margin = new System.Windows.Forms.Padding(6);
       this.Name = "GameConfSelector";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "Game configuration select";
