@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using GameCoClassLibrary;
+using GameCoClassLibrary.Classes;
 
 namespace Tower_defense
 {
@@ -21,14 +21,14 @@ namespace Tower_defense
 
     private void MenuNewGame_Click(object sender, EventArgs e)
     {
-      if (Game != null)
-      {
-        Game.GetFreedomToTimer();
-        Game = null;
-      }
       GameConfSelector SelectorForm = new GameConfSelector();
       if (SelectorForm.ShowDialog() == DialogResult.OK)
       {
+        if (Game != null)
+        {
+          Game.GetFreedomToTimer();
+          Game = null;
+        }
         Game = TGame.Factory(PBGame, GameTimer, SelectorForm.ReturnConfigName());
         if (Game == null)
         {
