@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using GameCoClassLibrary.Classes;
 
@@ -12,7 +6,7 @@ namespace Tower_defense
 {
   public partial class GameForm : Form
   {
-    private TGame Game = null;
+    private Game _game;
 
     public GameForm()
     {
@@ -21,47 +15,57 @@ namespace Tower_defense
 
     private void MenuNewGame_Click(object sender, EventArgs e)
     {
-      GameConfSelector SelectorForm = new GameConfSelector();
-      if (SelectorForm.ShowDialog() == DialogResult.OK)
+      GameConfSelector selectorForm = new GameConfSelector();
+      if (selectorForm.ShowDialog() == DialogResult.OK)
       {
-        if (Game != null)
+        if (_game != null)
         {
-          Game.GetFreedomToTimer();
-          Game = null;
+          GameTimer.Stop();
+          _game = null;
         }
-        Game = TGame.Factory(PBGame, GameTimer, SelectorForm.ReturnConfigName());
-        if (Game == null)
+        _game = Game.Factory(PBGame, selectorForm.ReturnConfigName());
+        if (_game == null)
         {
           Environment.Exit(1);
         }
         else
+        {
+          GameTimer.Interval = 30;//1;
+          GameTimer.Start();
           MessageBox.Show("Game conf loaded successeful");
+        }
       }
     }
 
     private void PBGame_MouseUp(object sender, MouseEventArgs e)
     {
-      if (Game != null)
+      if (_game != null)
       {
-        Game.MouseUp(e);
+        _game.MouseUp(e);
       }
     }
 
     private void PBGame_MouseMove(object sender, MouseEventArgs e)
     {
-      if (Game != null)
+      if (_game != null)
       {
-        Game.MouseMove(e);
+        _game.MouseMove(e);
       }
     }
 
     private void MenuScaling0d2_Click(object sender, EventArgs e)
     {
-      if (Game != null)
+      if (_game != null)
       {
-        Game.Scaling = Convert.ToSingle((sender as ToolStripMenuItem).Text);
+        var toolStripMenuItem = sender as ToolStripMenuItem;
+        if (toolStripMenuItem != null) _game.Scaling = Convert.ToSingle(toolStripMenuItem.Text);
       }
     }
 
+    private void GameTimer_Tick(object sender, EventArgs e)
+    {
+      _game.Tick();
+      _game.Render();
+    }
   }
 }
