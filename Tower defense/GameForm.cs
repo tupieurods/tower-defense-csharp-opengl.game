@@ -94,6 +94,7 @@ namespace Tower_defense
       {
         MenuPause_Click(sender, e);
         _game.SaveGame(saveNameForm.ReturnSaveFileName());
+        MessageBox.Show("Saved");
       }
     }
 
