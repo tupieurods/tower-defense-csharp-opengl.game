@@ -61,15 +61,6 @@ namespace Tower_defense.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Game conf loaded successeful.
-        /// </summary>
-        internal static string Game_conf_loaded_successeful {
-            get {
-                return ResourceManager.GetString("Game_conf_loaded_successeful", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Ищет локализованную строку, похожую на Game loaded successeful.
         /// </summary>
         internal static string Game_loaded_successeful {
