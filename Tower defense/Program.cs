@@ -6,7 +6,7 @@ namespace Tower_defense
   static class Program
   {
     /// <summary>
-    /// Главная точка входа для приложения.
+    /// Main entry point
     /// </summary>
     [STAThread]
     static void Main()
