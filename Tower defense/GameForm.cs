@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 using GameCoClassLibrary.Classes;
 using GameCoClassLibrary.Enums;
@@ -35,6 +36,7 @@ namespace Tower_defense
     {
       _currentScale = scaling;
       _graphObject.Resize(0, 0, scaling, PBGame);
+      this.ClientSize = new Size(Convert.ToInt32(Settings.WindowWidth * scaling), Convert.ToInt32(Settings.WindowHeight * scaling));
       if (_gameMenu != null)
       {
         _gameMenu.Scaling = scaling;
@@ -85,8 +87,21 @@ namespace Tower_defense
       }
       if (_game != null)
       {
-        _game.Tick(PBGame.PointToClient(Control.MousePosition));
+        _game.Tick(PBGame.PointToClient(MousePosition));
         _game.Render();
+        if (_game.Lose || _game.Won)
+        {
+          _timer.Stop();
+          MessageBox.Show(_game.Lose
+            ? GameCoClassLibrary.Properties.Resources.Looser_message
+            : GameCoClassLibrary.Properties.Resources.Winner_message);
+          float scaling = _game.Scaling;
+          _game = null;
+          _gameMenu = new MainMenu(_graphObject);
+          GameResize(scaling);
+          _timer.Start();
+          return;
+        }
       }
       _graphObject.Render();
     }
