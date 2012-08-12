@@ -4,7 +4,8 @@ using System.Windows.Forms;
 using GameCoClassLibrary.Classes;
 using GameCoClassLibrary.Enums;
 using GameCoClassLibrary.Forms;
-using GameCoClassLibrary.Interfaces;
+using GraphicLib.Interfaces;
+using GraphicLib.WinForms;
 using Button = GameCoClassLibrary.Enums.Button;
 using MainMenu = GameCoClassLibrary.Classes.MainMenu;
 using Menu = GameCoClassLibrary.Classes.Menu;
@@ -35,8 +36,8 @@ namespace Tower_defense
     private void GameResize(float scaling)
     {
       _currentScale = scaling;
-      _graphObject.Resize(0, 0, scaling, PBGame);
-      this.ClientSize = new Size(Convert.ToInt32(Settings.WindowWidth * scaling), Convert.ToInt32(Settings.WindowHeight * scaling));
+      _graphObject.Resize(Settings.WindowWidth, Settings.WindowHeight, scaling, PBGame);
+      ClientSize = new Size(Convert.ToInt32(Settings.WindowWidth * scaling), Convert.ToInt32(Settings.WindowHeight * scaling));
       if (_gameMenu != null)
       {
         _gameMenu.Scaling = scaling;
@@ -81,6 +82,7 @@ namespace Tower_defense
 
     private void TimerTick(object obj, EventArgs e)
     {
+      _timer.Stop();
       if (_gameMenu != null)
       {
         _gameMenu.Show();
@@ -91,7 +93,7 @@ namespace Tower_defense
         _game.Render();
         if (_game.Lose || _game.Won)
         {
-          _timer.Stop();
+          //_timer.Stop();
           MessageBox.Show(_game.Lose
             ? GameCoClassLibrary.Properties.Resources.Looser_message
             : GameCoClassLibrary.Properties.Resources.Winner_message);
@@ -99,11 +101,12 @@ namespace Tower_defense
           _game = null;
           _gameMenu = new MainMenu(_graphObject);
           GameResize(scaling);
-          _timer.Start();
+          //_timer.Start();
           return;
         }
       }
       _graphObject.Render();
+      _timer.Start();
     }
 
     private void PBGame_MouseUp(object sender, MouseEventArgs e)
@@ -149,7 +152,7 @@ namespace Tower_defense
     {
       if (_game != null)
       {
-        _game.MouseMove(e);
+        _game.MouseMove(e.Location);
       }
     }
 
