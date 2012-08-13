@@ -146,7 +146,7 @@ namespace Tower_defence_with_OpenGL
     }
 
     private Program()
-      : base(Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 0, stencil: 0, samples: 8), "Tower defence OpenGl privateBeta")
+      : base(Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 32, stencil: 0, samples: 8), "Tower defence OpenGl privateBeta")
     {
       VSync = VSyncMode.On;
       _graphObject = new OpenGLGraphic(this.ClientSize);
@@ -161,10 +161,8 @@ namespace Tower_defence_with_OpenGL
     protected override void OnLoad(EventArgs e)
     {
       base.OnLoad(e);
-      GL.Enable(EnableCap.Texture2D);
-      GL.Enable(EnableCap.Blend);
+      //GL.Enable(EnableCap.Texture2D);
 
-      GL.BlendFunc(BlendingFactorSrc.SrcAlpha, BlendingFactorDest.OneMinusSrcAlpha);
       OnResize(e);
     }
 
@@ -213,23 +211,6 @@ namespace Tower_defence_with_OpenGL
       base.OnRenderFrame(e);
       SwapBuffers();
     }
-
-    private static void Triangle()
-    {
-      GL.Begin(BeginMode.Lines);
-      //GL.Color3(Color.Red);
-      GL.Vertex2(0, 0);
-      GL.Vertex2(100, 100);
-      /*GL.Vertex2(0.0,0.0);
-      GL.Vertex2(0.5,0.0);
-      GL.Vertex2(0.0, 0.5);
-      GL.Vertex2(0.5, 0.0);
-      GL.Vertex2(0.0, 0.0);
-      GL.Vertex2(0.0, 0.5);*/
-      GL.End();
-    }
-
-
 
   }
 
