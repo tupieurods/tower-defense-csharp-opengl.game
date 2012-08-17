@@ -9,13 +9,9 @@ using GraphicLib.OpenGl;
 using OpenTK;
 using OpenTK.Graphics;
 using OpenTK.Input;
-using BeginMode = OpenTK.Graphics.OpenGL.BeginMode;
-using BlendingFactorDest = OpenTK.Graphics.OpenGL.BlendingFactorDest;
-using BlendingFactorSrc = OpenTK.Graphics.OpenGL.BlendingFactorSrc;
-using EnableCap = OpenTK.Graphics.OpenGL.EnableCap;
+using Tower_defence_with_OpenGL.Properties;
 using GL = OpenTK.Graphics.OpenGL.GL;
 using MainMenu = GameCoClassLibrary.Classes.MainMenu;
-using MatrixMode = OpenTK.Graphics.OpenGL.MatrixMode;
 using Menu = GameCoClassLibrary.Classes.Menu;
 using MouseEventArgs = System.Windows.Forms.MouseEventArgs;
 
@@ -23,7 +19,6 @@ namespace Tower_defence_with_OpenGL
 {
   public class Program : GameWindow
   {
-    [STAThread]
     static public void Main()
     {
       using (var program = new Program())
@@ -50,12 +45,13 @@ namespace Tower_defence_with_OpenGL
       {
         _game.Scaling = scaling;
       }
-      GL.Viewport(ClientRectangle.X, ClientRectangle.Y, ClientRectangle.Width, ClientRectangle.Height);
-      GL.MatrixMode(MatrixMode.Projection);
-      GL.LoadIdentity();
-      GL.Ortho(0, Settings.WindowWidth * scaling, Settings.WindowHeight * scaling, 0, -1, 1);
+      GL.Viewport(this.ClientSize);
     }
 
+    /// <summary>
+    /// Creates the new game.
+    /// </summary>
+    /// <param name="formType">Type of the form.</param>
     private void CreateNewGame(FormType formType)
     {
       FormForSelection selectorForm = new FormForSelection(formType);
@@ -72,12 +68,11 @@ namespace Tower_defence_with_OpenGL
       {
         _game = null;
       }
-      if (_game != null)
-      {
-        _game.Scaling = _currentScale;
-        _gameMenu = null;
-        MessageBox.Show("Game conf loaded successeful");
-      }
+      if (_game == null)
+        return;
+      _game.Scaling = _currentScale;
+      _gameMenu = null;
+      MessageBox.Show(Resources.Game_created_successeful);
     }
 
     private MouseEventArgs CreateWinFormsArgsFromOpenTK(MouseButtonEventArgs inValue)
@@ -115,7 +110,7 @@ namespace Tower_defence_with_OpenGL
         case GameCoClassLibrary.Enums.Button.Empty:
           break;
         case GameCoClassLibrary.Enums.Button.BigScale:
-          GameResize(2.0f);
+          GameResize(1.5f);
           break;
         case GameCoClassLibrary.Enums.Button.NormalScale:
           GameResize(1.0f);
@@ -148,21 +143,20 @@ namespace Tower_defence_with_OpenGL
     private Program()
       : base(Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 32, stencil: 0, samples: 8), "Tower defence OpenGl privateBeta")
     {
-      VSync = VSyncMode.On;
+      VSync = VSyncMode.Adaptive;
       _graphObject = new OpenGLGraphic(this.ClientSize);
       _currentScale = 1.0f;
       GameResize(1.0f);
       _gameMenu = new MainMenu(_graphObject);
       Mouse.ButtonUp += MouseUp;
       Mouse.Move += MouseMove;
-      OnLoad(new EventArgs());
+      //OnLoad(new EventArgs());
     }
 
     protected override void OnLoad(EventArgs e)
     {
       base.OnLoad(e);
       //GL.Enable(EnableCap.Texture2D);
-
       OnResize(e);
     }
 
@@ -213,8 +207,5 @@ namespace Tower_defence_with_OpenGL
     }
 
   }
-
-
-
 
 }
