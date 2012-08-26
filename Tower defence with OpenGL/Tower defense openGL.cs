@@ -141,9 +141,9 @@ namespace Tower_defence_with_OpenGL
     }
 
     private Program()
-      : base(Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 32, stencil: 0, samples: 8), "Tower defence OpenGl privateBeta")
+      : base(Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 32, stencil: 0, samples: 8), "Tower defense OpenGl Beta")
     {
-      VSync = VSyncMode.Adaptive;
+      VSync = VSyncMode.Off;
       _graphObject = new OpenGLGraphic(this.ClientSize);
       _currentScale = 1.0f;
       GameResize(1.0f);
@@ -156,17 +156,12 @@ namespace Tower_defence_with_OpenGL
     protected override void OnLoad(EventArgs e)
     {
       base.OnLoad(e);
-      //GL.Enable(EnableCap.Texture2D);
       OnResize(e);
     }
 
     /*protected override void OnResize(EventArgs e)
     {
       base.OnResize(e);
-      GL.Viewport(ClientRectangle.X, ClientRectangle.Y, ClientRectangle.Width, ClientRectangle.Height);
-      GL.MatrixMode(MatrixMode.Projection);
-      GL.LoadIdentity();
-      GL.Ortho(0, Settings.WindowWidth, Settings.WindowHeight, 0, -1, 1);
     }*/
 
     protected override void OnUpdateFrame(FrameEventArgs e)
@@ -203,6 +198,7 @@ namespace Tower_defence_with_OpenGL
     protected override void OnRenderFrame(FrameEventArgs e)
     {
       base.OnRenderFrame(e);
+      _graphObject.Render();
       SwapBuffers();
     }
 
