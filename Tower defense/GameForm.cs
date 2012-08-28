@@ -29,7 +29,7 @@ namespace Tower_defense
       _gameMenu = new MainMenu(_graphObject);
       _timer = new Timer();
       _timer.Tick += TimerTick;
-      _timer.Interval = 30;
+      _timer.Interval = 1;
       _timer.Start();
     }
 
