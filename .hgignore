@@ -1,0 +1,461 @@
+syntax: glob
+Game.sln
+Game.suo
+Tower defense/GameForm.Designer.cs
+Tower defense/GameForm.resx
+Tower defense/Tower defense.csproj
+Tower defense/Tower defense.csproj.user
+Tower defense/bin.7z
+Tower defense/bin/Debug/Data/GameConfigs/Demo.tdgc
+Tower defense/bin/Debug/Data/GameConfigs/Demo.tdlc
+Tower defense/bin/Debug/Data/GameConfigs/DemoBig.tdgc
+Tower defense/bin/Debug/Data/GameConfigs/DemoBig.tdlc
+Tower defense/bin/Debug/Data/Images/Destroy.png
+Tower defense/bin/Debug/Data/Images/I0.png
+Tower defense/bin/Debug/Data/Images/I1.png
+Tower defense/bin/Debug/Data/Images/I2.png
+Tower defense/bin/Debug/Data/Settings.cfg
+Tower defense/bin/Debug/Data/Maps/DemoBig.efm
+Tower defense/bin/Debug/Data/Maps/Demo.efm
+Tower defense/bin/Debug/Data/Images/money.png
+Tower defense/bin/Debug/Data/Images/Up.png
+Tower defense/bin/Debug/Data/Images/StartLevelEnabled.png
+Tower defense/bin/Debug/Data/Images/StartLevelDisabled.png
+Tower defense/bin/Debug/Data/Images/I4.png
+Tower defense/bin/Debug/Data/Images/I3.png
+Tower defense/bin/Debug/Data/Towers/Demo/CriticalStrike.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Simple.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/SimpleBig.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (9).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (81).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (80).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (8).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (79).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (78).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (77).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (76).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (75).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (74).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (73).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (72).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (71).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (70).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (7).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (69).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (68).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (67).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (66).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (65).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (64).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (63).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (62).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (61).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (60).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (6).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (59).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (58).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (57).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (56).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (55).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (54).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (53).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (52).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (51).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (50).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (5).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (49).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (48).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (47).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (46).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (45).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (44).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (43).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (42).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (41).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (40).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (4).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (39).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (38).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (37).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (36).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (35).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (34).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (33).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (32).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (31).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (30).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (3).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (29).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (28).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (27).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (26).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (25).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (24).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (23).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (22).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (21).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (20).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (2).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (19).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (18).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (17).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (16).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (15).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (14).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (13).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (12).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (11).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (10).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash.tdtc
+Tower defense/bin/Debug/GameCoClassLibrary.dll
+Tower defense/bin/Debug/GameCoClassLibrary.pdb
+Tower defense/bin/Debug/Tower defense.exe
+Tower defense/bin/Debug/Tower defense.pdb
+Tower defense/obj/x86/Release/Tower_defense.Properties.Resources.resources
+Tower defense/obj/x86/Release/Tower_defense.GameForm.resources
+Tower defense/obj/x86/Release/Tower_defense.GameConfSelector.resources
+Tower defense/obj/x86/Release/Tower defense.pdb
+Tower defense/obj/x86/Release/Tower defense.exe
+Tower defense/obj/x86/Release/Tower defense.csproj.FileListAbsolute.txt
+Tower defense/obj/x86/Release/ResolveAssemblyReference.cache
+Tower defense/obj/x86/Release/GenerateResource.write.1.tlog
+Tower defense/obj/x86/Release/GenerateResource.read.1.tlog
+Tower defense/obj/x86/Release/DesignTimeResolveAssemblyReferencesInput.cache
+Tower defense/bin/Debug/Tower defense.vshost.exe
+Tower defense/bin/Debug/Tower defense.vshost.exe.manifest
+Tower defense/bin/Release.7z
+Tower defense/bin/Release/Data/GameConfigs/Demo.tdgc
+Tower defense/bin/Release/Data/GameConfigs/Demo.tdlc
+Tower defense/bin/Release/Data/GameConfigs/DemoBig.tdgc
+Tower defense/bin/Release/Data/GameConfigs/DemoBig.tdlc
+Tower defense/bin/Release/Data/Images/Destroy.png
+Tower defense/bin/Release/Data/Images/I0.png
+Tower defense/bin/Release/Data/Images/I1.png
+Tower defense/bin/Release/Data/Images/I2.png
+Tower defense/bin/Release/Data/Images/I3.png
+Tower defense/bin/Release/Data/Images/I4.png
+Tower defense/bin/Release/Data/Images/Money.png
+Tower defense/bin/Release/Data/Images/StartLevelDisabled.png
+Tower defense/bin/Release/Data/Images/StartLevelEnabled.png
+Tower defense/bin/Release/Data/Images/Up.png
+Tower defense/bin/Release/Data/Maps/Demo.efm
+Tower defense/bin/Release/Data/Maps/DemoBig.efm
+Tower defense/bin/Release/Data/Settings.cfg
+Tower defense/bin/Release/Data/Towers/Demo/CriticalStrike.tdtc
+Tower defense/bin/Release/Data/Towers/Demo/Simple.tdtc
+Tower defense/bin/Release/Data/Towers/Demo/SimpleBig.tdtc
+Tower defense/bin/Release/Data/Towers/Demo/Splash.tdtc
+Tower defense/bin/Release/GameCoClassLibrary.dll
+Tower defense/bin/Release/GameCoClassLibrary.pdb
+Tower defense/bin/Release/Tower defense.exe
+Tower defense/bin/Release/Tower defense.pdb
+Tower defense/obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
+Tower defense/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Tower defense/obj/x86/Debug/GenerateResource.read.1.tlog
+Tower defense/obj/x86/Debug/GenerateResource.write.1.tlog
+Tower defense/obj/x86/Debug/ResolveAssemblyReference.cache
+Tower defense/obj/x86/Debug/Tower defense.csproj.FileListAbsolute.txt
+Tower defense/obj/x86/Debug/Tower defense.exe
+Tower defense/obj/x86/Debug/Tower defense.pdb
+Tower defense/obj/x86/Debug/Tower_defense.GameConfSelector.resources
+Tower defense/obj/x86/Debug/Tower_defense.GameForm.resources
+Tower defense/obj/x86/Debug/Tower_defense.Properties.Resources.resources
+Tower defense/obj/x86/Release/DesignTimeResolveAssemblyReferences.cache
+.hgignore
+Game.sln.DotSettings.user
+Tower defense/bin/Debug/Data/GameConfigs/DemoBigMap.tdgc
+Tower defense/bin/Debug/Data/GameConfigs/DemoBigMap.tdlc
+Tower defense/bin/Debug/Data/Towers/Demo/Burn.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Freeze.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Posion.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (10) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (11) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (12) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (13) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (14) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (15) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (16) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (17) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (18) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (19) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (2) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (20) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (21) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (22) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (23) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (24) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (25) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (26) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (27) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (28) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (29) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (3) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (30) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (31) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (32) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (33) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (34) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (35) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (36) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (37) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (38) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (39) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (4) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (40) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (41) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (42) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (43) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (44) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (45) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (46) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (47) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (48) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (49) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (5) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (50) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (51) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (52) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (53) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (54) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (55) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (56) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (6) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (7) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (8) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия (9) - копия.tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (10).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (11).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (2).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (3).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (4).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (5).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (6).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (7).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (8).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия (9).tdtc
+Tower defense/bin/Debug/Data/Towers/Demo/Splash - копия - копия.tdtc
+Tower defense/bin/Release/Data/GameConfigs/DemoBigMap.tdgc
+Tower defense/bin/Release/Data/GameConfigs/DemoBigMap.tdlc
+Tower defense/bin/Release/Data/Towers/Demo/Burn.tdtc
+Tower defense/bin/Release/Data/Towers/Demo/Freeze.tdtc
+Tower defense/bin/Release/Data/Towers/Demo/Posion.tdtc
+Tower defense/bin/Release/Tower defense.vshost.exe
+Tower defense/bin/Release/Tower defense.vshost.exe.manifest
+_ReSharper.Game/AspFileDataCache.dat
+_ReSharper.Game/BuildScriptCache/.crc
+_ReSharper.Game/BuildScriptCache/.version
+_ReSharper.Game/BuildScriptCache/5/2c8a802b.dat
+_ReSharper.Game/CompletionStatistics/Statistics.dat
+_ReSharper.Game/ConditionalNames/.crc
+_ReSharper.Game/ConditionalNames/.version
+_ReSharper.Game/ConditionalNames/5/2ec3b404.dat
+_ReSharper.Game/JSTest/.crc
+_ReSharper.Game/JSTest/.version
+_ReSharper.Game/JavaScriptCache/.crc
+_ReSharper.Game/JavaScriptCache/.version
+_ReSharper.Game/JavaScriptCache/2/1e0851ac.dat
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/Assembly.Location.txt
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/Graphics.cs
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/Graphics.cs.flags
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/Graphics.cs.info
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/Pen.cs
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/Pen.cs.flags
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/Pen.cs.info
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/SolidBrush.cs
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/SolidBrush.cs.flags
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/SolidBrush.cs.info
+_ReSharper.Game/JbDecompilerCache/metadata/mscorlib-d4f7/Assembly.Location.txt
+_ReSharper.Game/JbDecompilerCache/metadata/mscorlib-d4f7/t/System/Collections/Generic/List`1.cs
+_ReSharper.Game/JbDecompilerCache/metadata/mscorlib-d4f7/t/System/Collections/Generic/List`1.cs.flags
+_ReSharper.Game/JbDecompilerCache/metadata/mscorlib-d4f7/t/System/Collections/Generic/List`1.cs.info
+_ReSharper.Game/JbPdbInfo/565153dbe0578f808e304ac20478e3130aa65175
+_ReSharper.Game/JbPdbInfo/7a0d74ca4996cbba3047b1574bf1084f24682c5f
+_ReSharper.Game/JbPdbInfo/bc6424cb6fd9c4436b348252d178f3e7a3a46080
+_ReSharper.Game/MVC/.crc
+_ReSharper.Game/MVC/.version
+_ReSharper.Game/ModuleIds.xml
+_ReSharper.Game/NamedArguments/.crc
+_ReSharper.Game/NamedArguments/.version
+_ReSharper.Game/NamedArguments/7/3b0caeaa.dat
+_ReSharper.Game/PersistenIdIndex.bin
+_ReSharper.Game/RecentItems/RecentFiles.dat
+_ReSharper.Game/Resources/.crc
+_ReSharper.Game/Resources/.version
+_ReSharper.Game/Resources/9/4da6d63c.dat
+_ReSharper.Game/SymbolCache.bin
+_ReSharper.Game/TagPrefixes/.crc
+_ReSharper.Game/TagPrefixes/.version
+_ReSharper.Game/TodoItems/.crc
+_ReSharper.Game/TodoItems/.version
+_ReSharper.Game/TodoItems/7/38d37ad1.dat
+_ReSharper.Game/WebSymbols/.crc
+_ReSharper.Game/WebSymbols/.version
+_ReSharper.Game/WordIndex/.crc
+_ReSharper.Game/WordIndex/.version
+_ReSharper.Game/WordIndex/5/2ec3b404.dat
+_ReSharper.Game/WordIndex/5/635c1b1c.dat
+_ReSharper.Game/XmlIndex/Accessibility.xml/AD80147B.bin
+_ReSharper.Game/XmlIndex/Accessibility.xml/F0A92E29.bin
+_ReSharper.Game/XmlIndex/Microsoft.Build.Framework.4.0.0.0.Nullness.Generated.xml/94363C24.bin
+_ReSharper.Game/XmlIndex/Microsoft.Build.Framework.xml/5F3711F9.bin
+_ReSharper.Game/XmlIndex/Microsoft.Build.Tasks.v4.0.4.0.0.0.Nullness.Generated.xml/CCCC0FE4.bin
+_ReSharper.Game/XmlIndex/Microsoft.Build.Tasks.v4.0.xml/DD37DD69.bin
+_ReSharper.Game/XmlIndex/Microsoft.Build.Utilities.v4.0.4.0.0.0.Nullness.Generated.xml/E27CE424.bin
+_ReSharper.Game/XmlIndex/Microsoft.Build.Utilities.v4.0.xml/35B989D1.bin
+_ReSharper.Game/XmlIndex/Microsoft.CSharp.4.0.0.0.Nullness.Generated.xml/47A918C4.bin
+_ReSharper.Game/XmlIndex/Microsoft.CSharp.xml/36596F94.bin
+_ReSharper.Game/XmlIndex/Microsoft.CSharp.xml/DFB98F86.bin
+_ReSharper.Game/XmlIndex/Microsoft.VisualC.xml/80DC5F78.bin
+_ReSharper.Game/XmlIndex/SMDiagnostics.4.0.0.0.Nullness.Generated.xml/C77EB924.bin
+_ReSharper.Game/XmlIndex/System.4.0.0.0.Contracts.xml/07845DD4.bin
+_ReSharper.Game/XmlIndex/System.4.0.0.0.Nullness.Generated.xml/6B56B484.bin
+_ReSharper.Game/XmlIndex/System.4.0.0.0.Pure.xml/DE77D247.bin
+_ReSharper.Game/XmlIndex/System.Configuration.4.0.0.0.Contracts.xml/FB4CED54.bin
+_ReSharper.Game/XmlIndex/System.Configuration.4.0.0.0.Nullness.Generated.xml/0C78B404.bin
+_ReSharper.Game/XmlIndex/System.Configuration.4.0.0.0.Pure.xml/7748B1C7.bin
+_ReSharper.Game/XmlIndex/System.Configuration.Install.4.0.0.0.Contracts.xml/86EDEE74.bin
+_ReSharper.Game/XmlIndex/System.Configuration.Install.4.0.0.0.Nullness.Generated.xml/44FAAA64.bin
+_ReSharper.Game/XmlIndex/System.Configuration.Install.xml/0361F853.bin
+_ReSharper.Game/XmlIndex/System.Configuration.xml/AE1C9B2E.bin
+_ReSharper.Game/XmlIndex/System.Configuration.xml/ED8E743C.bin
+_ReSharper.Game/XmlIndex/System.Core.4.0.0.0.Contracts.xml/0B7C8174.bin
+_ReSharper.Game/XmlIndex/System.Core.4.0.0.0.Nullness.Generated.xml/DA9E9D64.bin
+_ReSharper.Game/XmlIndex/System.Core.4.0.0.0.Pure.xml/717C2A67.bin
+_ReSharper.Game/XmlIndex/System.Core.LinqTunnel.xml/D9B819C3.bin
+_ReSharper.Game/XmlIndex/System.Core.Nullness.Manual.xml/693BFE35.bin
+_ReSharper.Game/XmlIndex/System.Core.xml/2031C245.bin
+_ReSharper.Game/XmlIndex/System.Core.xml/DE6CCD17.bin
+_ReSharper.Game/XmlIndex/System.Data.4.0.0.0.Contracts.xml/6B3912F4.bin
+_ReSharper.Game/XmlIndex/System.Data.4.0.0.0.Nullness.Generated.xml/AF56DEE4.bin
+_ReSharper.Game/XmlIndex/System.Data.4.0.0.0.Pure.xml/CB37CBE7.bin
+_ReSharper.Game/XmlIndex/System.Data.DataSetExtensions.4.0.0.0.Nullness.Generated.xml/E2D9EC64.bin
+_ReSharper.Game/XmlIndex/System.Data.DataSetExtensions.I18n.xml/FA1E61DF.bin
+_ReSharper.Game/XmlIndex/System.Data.DataSetExtensions.xml/27D27AEA.bin
+_ReSharper.Game/XmlIndex/System.Data.DataSetExtensions.xml/D6BDF0B8.bin
+_ReSharper.Game/XmlIndex/System.Data.I18n.xml/4BA2745F.bin
+_ReSharper.Game/XmlIndex/System.Data.OracleClient.4.0.0.0.Nullness.Generated.xml/8CC4BA64.bin
+_ReSharper.Game/XmlIndex/System.Data.OracleClient.xml/283BB47D.bin
+_ReSharper.Game/XmlIndex/System.Data.SqlXml.4.0.0.0.Nullness.Generated.xml/E38BEDE4.bin
+_ReSharper.Game/XmlIndex/System.Data.SqlXml.xml/29D36665.bin
+_ReSharper.Game/XmlIndex/System.Data.SqlXml.xml/FCA68F77.bin
+_ReSharper.Game/XmlIndex/System.Data.xml/66DFF16E.bin
+_ReSharper.Game/XmlIndex/System.Data.xml/9F30193C.bin
+_ReSharper.Game/XmlIndex/System.Deployment.4.0.0.0.Nullness.Generated.xml/E885D1E4.bin
+_ReSharper.Game/XmlIndex/System.Deployment.xml/032EC5F5.bin
+_ReSharper.Game/XmlIndex/System.Deployment.xml/AE223127.bin
+_ReSharper.Game/XmlIndex/System.Design.4.0.0.0.Nullness.Generated.xml/8B6FCEA4.bin
+_ReSharper.Game/XmlIndex/System.Design.xml/8D15D37E.bin
+_ReSharper.Game/XmlIndex/System.DirectoryServices.4.0.0.0.Nullness.Generated.xml/3FE19F64.bin
+_ReSharper.Game/XmlIndex/System.DirectoryServices.Protocols.4.0.0.0.Nullness.Generated.xml/F41D33C4.bin
+_ReSharper.Game/XmlIndex/System.DirectoryServices.Protocols.xml/49BC8260.bin
+_ReSharper.Game/XmlIndex/System.DirectoryServices.xml/21A5512B.bin
+_ReSharper.Game/XmlIndex/System.DirectoryServices.xml/B753A939.bin
+_ReSharper.Game/XmlIndex/System.Drawing.4.0.0.0.Contracts.xml/0E821C94.bin
+_ReSharper.Game/XmlIndex/System.Drawing.4.0.0.0.Nullness.Generated.xml/E84B8C44.bin
+_ReSharper.Game/XmlIndex/System.Drawing.4.0.0.0.Pure.xml/E41F5B87.bin
+_ReSharper.Game/XmlIndex/System.Drawing.Design.4.0.0.0.Nullness.Generated.xml/4E594AA4.bin
+_ReSharper.Game/XmlIndex/System.Drawing.Design.xml/1EACD3B0.bin
+_ReSharper.Game/XmlIndex/System.Drawing.xml/C64EAD2C.bin
+_ReSharper.Game/XmlIndex/System.Drawing.xml/EB5EA13E.bin
+_ReSharper.Game/XmlIndex/System.Dynamic.4.0.0.0.Nullness.Generated.xml/026A7DA4.bin
+_ReSharper.Game/XmlIndex/System.EnterpriseServices.4.0.0.0.Nullness.Generated.xml/BBE7A364.bin
+_ReSharper.Game/XmlIndex/System.EnterpriseServices.xml/45C74617.bin
+_ReSharper.Game/XmlIndex/System.EnterpriseServices.xml/E4A7FDC5.bin
+_ReSharper.Game/XmlIndex/System.I18n.xml/7E6153BF.bin
+_ReSharper.Game/XmlIndex/System.Nullness.Manual.xml/637B83D5.bin
+_ReSharper.Game/XmlIndex/System.Numerics.4.0.0.0.Nullness.Generated.xml/EDBD3FE4.bin
+_ReSharper.Game/XmlIndex/System.Numerics.xml/39922AE6.bin
+_ReSharper.Game/XmlIndex/System.Numerics.xml/92BC2234.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Caching.4.0.0.0.Nullness.Generated.xml/5DDF73E4.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Caching.xml/D500C6D7.bin
+_ReSharper.Game/XmlIndex/System.Runtime.DurableInstancing.4.0.0.0.Nullness.Generated.xml/00BE7424.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Remoting.4.0.0.0.Nullness.Generated.xml/00C899A4.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Remoting.xml/6E88DAED.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Remoting.xml/F78F4B3F.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Serialization.4.0.0.0.Nullness.Generated.xml/E04CA004.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Serialization.Attributes.xml/19E5989E.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Serialization.Formatters.Soap.2.0.0.0.Contracts.xml/02345952.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Serialization.Formatters.Soap.4.0.0.0.Contracts.xml/55A979D4.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Serialization.Formatters.Soap.4.0.0.0.Nullness.Generated.xml/9AFB5084.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Serialization.Formatters.Soap.xml/0B20BFDC.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Serialization.Formatters.Soap.xml/39AB00CE.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Serialization.xml/3A3D8710.bin
+_ReSharper.Game/XmlIndex/System.Runtime.Serialization.xml/8C776582.bin
+_ReSharper.Game/XmlIndex/System.Security.4.0.0.0.Contracts.xml/515FC174.bin
+_ReSharper.Game/XmlIndex/System.Security.4.0.0.0.Nullness.Generated.xml/1429DD64.bin
+_ReSharper.Game/XmlIndex/System.Security.4.0.0.0.Pure.xml/6C576A67.bin
+_ReSharper.Game/XmlIndex/System.Security.xml/1ABD2CE8.bin
+_ReSharper.Game/XmlIndex/System.Security.xml/87BF9C3A.bin
+_ReSharper.Game/XmlIndex/System.ServiceProcess.4.0.0.0.Nullness.Generated.xml/2295F6E4.bin
+_ReSharper.Game/XmlIndex/System.ServiceProcess.xml/F86A10DA.bin
+_ReSharper.Game/XmlIndex/System.Transactions.4.0.0.0.Nullness.Generated.xml/04CB2664.bin
+_ReSharper.Game/XmlIndex/System.Transactions.xml/63658BBB.bin
+_ReSharper.Game/XmlIndex/System.Transactions.xml/AD971069.bin
+_ReSharper.Game/XmlIndex/System.Web.4.0.0.0.Contracts.xml/B50C4594.bin
+_ReSharper.Game/XmlIndex/System.Web.4.0.0.0.Nullness.Generated.xml/3B53D544.bin
+_ReSharper.Game/XmlIndex/System.Web.4.0.0.0.Pure.xml/686BE487.bin
+_ReSharper.Game/XmlIndex/System.Web.ApplicationServices.4.0.0.0.Nullness.Generated.xml/CDA1B004.bin
+_ReSharper.Game/XmlIndex/System.Web.ApplicationServices.xml/8A31B826.bin
+_ReSharper.Game/XmlIndex/System.Web.Attributes.xml/33EA9D5E.bin
+_ReSharper.Game/XmlIndex/System.Web.I18n.xml/C6FEF5FF.bin
+_ReSharper.Game/XmlIndex/System.Web.RegularExpressions.xml/DB466009.bin
+_ReSharper.Game/XmlIndex/System.Web.Services.4.0.0.0.Nullness.Generated.xml/EC463C64.bin
+_ReSharper.Game/XmlIndex/System.Web.Services.Attributes.xml/C138893E.bin
+_ReSharper.Game/XmlIndex/System.Web.Services.xml/11BD131C.bin
+_ReSharper.Game/XmlIndex/System.Web.xml/94F003BC.bin
+_ReSharper.Game/XmlIndex/System.Windows.Forms.4.0.0.0.Contracts.xml/1D054254.bin
+_ReSharper.Game/XmlIndex/System.Windows.Forms.4.0.0.0.Nullness.Generated.xml/1F60A904.bin
+_ReSharper.Game/XmlIndex/System.Windows.Forms.4.0.0.0.Pure.xml/CA37E6C7.bin
+_ReSharper.Game/XmlIndex/System.Windows.Forms.I18n.xml/B794E83F.bin
+_ReSharper.Game/XmlIndex/System.Windows.Forms.Manual.xml/BA60B1CB.bin
+_ReSharper.Game/XmlIndex/System.Windows.Forms.xml/1AED4E6A.bin
+_ReSharper.Game/XmlIndex/System.Windows.Forms.xml/63D11FF8.bin
+_ReSharper.Game/XmlIndex/System.Xaml.4.0.0.0.Nullness.Generated.xml/97DBE3A4.bin
+_ReSharper.Game/XmlIndex/System.Xaml.xml/102839C6.bin
+_ReSharper.Game/XmlIndex/System.Xaml.xml/1CFF9B94.bin
+_ReSharper.Game/XmlIndex/System.Xml.4.0.0.0.Contracts.xml/CF0743B4.bin
+_ReSharper.Game/XmlIndex/System.Xml.4.0.0.0.Nullness.Generated.xml/A0DF46A4.bin
+_ReSharper.Game/XmlIndex/System.Xml.4.0.0.0.Pure.xml/E9628527.bin
+_ReSharper.Game/XmlIndex/System.Xml.Attributes.xml/F9C6A9FE.bin
+_ReSharper.Game/XmlIndex/System.Xml.I18n.xml/E864609F.bin
+_ReSharper.Game/XmlIndex/System.Xml.Linq.4.0.0.0.Contracts.xml/582FCE74.bin
+_ReSharper.Game/XmlIndex/System.Xml.Linq.4.0.0.0.Nullness.Generated.xml/4E588A64.bin
+_ReSharper.Game/XmlIndex/System.Xml.Linq.4.0.0.0.Pure.xml/F0AB5767.bin
+_ReSharper.Game/XmlIndex/System.Xml.Linq.I18n.xml/7A027FDF.bin
+_ReSharper.Game/XmlIndex/System.Xml.Linq.xml/54FED853.bin
+_ReSharper.Game/XmlIndex/System.Xml.Linq.xml/FE738201.bin
+_ReSharper.Game/XmlIndex/System.Xml.xml/AE3A5AA7.bin
+_ReSharper.Game/XmlIndex/System.Xml.xml/D51FDE35.bin
+_ReSharper.Game/XmlIndex/System.xml/07464C3F.bin
+_ReSharper.Game/XmlIndex/System.xml/143D5FB0.bin
+_ReSharper.Game/XmlIndex/System.xml/20F41322.bin
+_ReSharper.Game/XmlIndex/mscorlib.4.0.0.0.Contracts.xml/BA0B7454.bin
+_ReSharper.Game/XmlIndex/mscorlib.4.0.0.0.Interfaces.Nullness.Generated.xml/E943BD5C.bin
+_ReSharper.Game/XmlIndex/mscorlib.4.0.0.0.Nullness.Generated.xml/D37F1B04.bin
+_ReSharper.Game/XmlIndex/mscorlib.4.0.0.0.Pure.xml/0C16D8C7.bin
+_ReSharper.Game/XmlIndex/mscorlib.I18n.xml/0AA1DA3F.bin
+_ReSharper.Game/XmlIndex/mscorlib.Nullness.Manual.xml/A44AFA55.bin
+_ReSharper.Game/XmlIndex/mscorlib.ValueFlow.xml/D2DAC228.bin
+_ReSharper.Game/XmlIndex/mscorlib.xml/48F8C2BF.bin
+_ReSharper.Game/XmlIndex/mscorlib.xml/AC9174A0.bin
+_ReSharper.Game/XmlIndex/mscorlib.xml/B4F38832.bin
+_ReSharper.Game/BuildScriptCache/1/45e0584e.dat
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/BufferedGraphics.cs
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/BufferedGraphics.cs.flags
+_ReSharper.Game/JbDecompilerCache/metadata/System.Drawing-a056/t/System/Drawing/BufferedGraphics.cs.info
+_ReSharper.Game/JbDecompilerCache/metadata/System.Windows.Forms-5bd1/Assembly.Location.txt
+_ReSharper.Game/JbDecompilerCache/metadata/System.Windows.Forms-5bd1/t/System/Windows/Forms/MessageBox.cs
+_ReSharper.Game/JbDecompilerCache/metadata/System.Windows.Forms-5bd1/t/System/Windows/Forms/MessageBox.cs.flags
+_ReSharper.Game/JbDecompilerCache/metadata/System.Windows.Forms-5bd1/t/System/Windows/Forms/MessageBox.cs.info
+_ReSharper.Game/JbDecompilerCache/metadata/mscorlib-d4f7/t/System/EventArgs.cs
+_ReSharper.Game/JbDecompilerCache/metadata/mscorlib-d4f7/t/System/EventArgs.cs.flags
+_ReSharper.Game/JbDecompilerCache/metadata/mscorlib-d4f7/t/System/EventArgs.cs.info
+_ReSharper.Game/Resources/8/176bbbba.dat
+*.dll
+Tower defense/Tower defense.csproj.DotSettings.user
+Tower defence with OpenGL/obj
+*.csproj
+_ReSharper.Game
+Tower defense/bin
+Tower defence with OpenGL/bin
