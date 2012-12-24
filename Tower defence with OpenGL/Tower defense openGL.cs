@@ -143,10 +143,10 @@ namespace Tower_defence_with_OpenGL
     private Program()
       : base(Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 32, stencil: 0, samples: 8), "Tower defense OpenGl Beta")
     {
-      VSync = VSyncMode.Off;
+      VSync = VSyncMode.On;
       _graphObject = new OpenGLGraphic(this.ClientSize);
       _currentScale = 1.0f;
-      GameResize(1.0f);
+      //GameResize(1.0f);
       _gameMenu = new MainMenu(_graphObject);
       Mouse.ButtonUp += MouseUp;
       Mouse.Move += MouseMove;
