@@ -23,7 +23,7 @@ namespace Tower_defence_with_OpenGL
     {
       using (var program = new Program())
       {
-        program.Run();
+        program.Run(60, 30);
       }
     }
 
