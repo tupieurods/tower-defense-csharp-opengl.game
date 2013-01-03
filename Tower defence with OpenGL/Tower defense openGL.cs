@@ -36,7 +36,10 @@ namespace Tower_defence_with_OpenGL
     {
       _currentScale = scaling;
       _graphObject.Resize(Settings.WindowWidth, Settings.WindowHeight, scaling);
+      _graphObject.Clip = new Rectangle(0, 0, Convert.ToInt32(Settings.WindowWidth * scaling),
+                                        Convert.ToInt32(Settings.WindowHeight * scaling));
       this.ClientSize = new Size(Convert.ToInt32(Settings.WindowWidth * scaling), Convert.ToInt32(Settings.WindowHeight * scaling));
+      GL.Viewport(this.ClientSize);
       if (_gameMenu != null)
       {
         _gameMenu.Scaling = scaling;
@@ -45,7 +48,6 @@ namespace Tower_defence_with_OpenGL
       {
         _game.Scaling = scaling;
       }
-      GL.Viewport(this.ClientSize);
     }
 
     /// <summary>
