@@ -5,7 +5,7 @@ using GameCoClassLibrary.Classes;
 using GameCoClassLibrary.Enums;
 using GameCoClassLibrary.Forms;
 using GraphicLib.Interfaces;
-using GraphicLib.OpenGl;
+using GraphicLib.OpenGL;
 using OpenTK;
 using OpenTK.Graphics;
 using OpenTK.Input;
