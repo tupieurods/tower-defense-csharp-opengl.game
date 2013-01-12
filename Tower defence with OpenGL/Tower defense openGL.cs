@@ -23,7 +23,7 @@ namespace Tower_defence_with_OpenGL
     {
       using (var program = new Program())
       {
-        program.Run(60, 30);
+        program.Run(60, 120);
       }
     }
 
@@ -169,19 +169,18 @@ namespace Tower_defence_with_OpenGL
     protected override void OnUpdateFrame(FrameEventArgs e)
     {
       base.OnUpdateFrame(e);
-
-      if (_gameMenu != null)
+      /*if (_gameMenu != null)
       {
-        _gameMenu.Show();
-      }
+        //_gameMenu.Show();
+      }*/
       if (_game == null)
         return;
-      var mouse = OpenTK.Input.Mouse.GetState();
+      /*var mouse = OpenTK.Input.Mouse.GetState();
       if ((mouse[MouseButton.Left]) || (mouse[MouseButton.Right]))
       {
-      }
+      }*/
       _game.Tick(new Point(this.Mouse.X, this.Mouse.Y));
-      _game.Render();
+      //_game.Render();
       if (!_game.Lose && !_game.Won)
         return;
       MessageBox.Show(_game.Lose
@@ -200,6 +199,12 @@ namespace Tower_defence_with_OpenGL
     protected override void OnRenderFrame(FrameEventArgs e)
     {
       base.OnRenderFrame(e);
+      if (_gameMenu != null)
+      {
+        _gameMenu.Show();
+      }
+      if (_game != null)
+        _game.Render();
       _graphObject.Render();
       SwapBuffers();
     }
