@@ -17,11 +17,11 @@ using MouseEventArgs = System.Windows.Forms.MouseEventArgs;
 
 namespace Tower_defence_with_OpenGL
 {
-  public class Program : GameWindow
+  public class Program: GameWindow
   {
-    static public void Main()
+    public static void Main()
     {
-      using (var program = new Program())
+      using(var program = new Program())
       {
         program.Run(60, 120);
       }
@@ -38,13 +38,14 @@ namespace Tower_defence_with_OpenGL
       _graphObject.Resize(Settings.WindowWidth, Settings.WindowHeight, scaling);
       _graphObject.Clip = new Rectangle(0, 0, Convert.ToInt32(Settings.WindowWidth * scaling),
                                         Convert.ToInt32(Settings.WindowHeight * scaling));
-      this.ClientSize = new Size(Convert.ToInt32(Settings.WindowWidth * scaling), Convert.ToInt32(Settings.WindowHeight * scaling));
+      this.ClientSize = new Size(Convert.ToInt32(Settings.WindowWidth * scaling),
+                                 Convert.ToInt32(Settings.WindowHeight * scaling));
       GL.Viewport(this.ClientSize);
-      if (_gameMenu != null)
+      if(_gameMenu != null)
       {
         _gameMenu.Scaling = scaling;
       }
-      if (_game != null)
+      if(_game != null)
       {
         _game.Scaling = scaling;
       }
@@ -57,8 +58,10 @@ namespace Tower_defence_with_OpenGL
     private void CreateNewGame(FormType formType)
     {
       FormForSelection selectorForm = new FormForSelection(formType);
-      if (selectorForm.ShowDialog() != DialogResult.OK)
+      if(selectorForm.ShowDialog() != DialogResult.OK)
+      {
         return;
+      }
       _game = null;
       try
       {
@@ -70,17 +73,20 @@ namespace Tower_defence_with_OpenGL
       {
         _game = null;
       }
-      if (_game == null)
+      if(_game == null)
+      {
         return;
+      }
       _game.Scaling = _currentScale;
       _gameMenu = null;
+      _graphObject.ClearCache();
       MessageBox.Show(Resources.Game_created_successeful);
     }
 
     private MouseEventArgs CreateWinFormsArgsFromOpenTK(MouseButtonEventArgs inValue)
     {
       MouseButtons resultButton;
-      switch (inValue.Button)
+      switch(inValue.Button)
       {
         case MouseButton.Left:
           resultButton = MouseButtons.Left;
@@ -99,15 +105,15 @@ namespace Tower_defence_with_OpenGL
     private void MouseUp(object sender, MouseButtonEventArgs e)
     {
       GameCoClassLibrary.Enums.Button result = GameCoClassLibrary.Enums.Button.Empty;
-      if (_gameMenu != null)
+      if(_gameMenu != null)
       {
         result = _gameMenu.MouseUp(CreateWinFormsArgsFromOpenTK(e));
       }
-      if (_game != null)
+      if(_game != null)
       {
         result = _game.MouseUp(CreateWinFormsArgsFromOpenTK(e));
       }
-      switch (result)
+      switch(result)
       {
         case GameCoClassLibrary.Enums.Button.Empty:
           break;
@@ -136,23 +142,23 @@ namespace Tower_defence_with_OpenGL
 
     private void MouseMove(object sender, MouseMoveEventArgs e)
     {
-      if (_game != null)
+      if(_game != null)
       {
         _game.MouseMove(e.Position);
       }
     }
 
     private Program()
-      : base(Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 32, stencil: 0, samples: 8), "Tower defense OpenGl Beta")
+      : base(
+        Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 32, stencil: 0, samples: 8),
+        "Tower defense OpenGl Beta")
     {
       VSync = VSyncMode.On;
       _graphObject = new OpenGLGraphic(this.ClientSize);
       _currentScale = 1.0f;
-      //GameResize(1.0f);
       _gameMenu = new MainMenu(_graphObject);
       Mouse.ButtonUp += MouseUp;
       Mouse.Move += MouseMove;
-      //OnLoad(new EventArgs());
     }
 
     protected override void OnLoad(EventArgs e)
@@ -169,20 +175,15 @@ namespace Tower_defence_with_OpenGL
     protected override void OnUpdateFrame(FrameEventArgs e)
     {
       base.OnUpdateFrame(e);
-      /*if (_gameMenu != null)
+      if(_game == null)
       {
-        //_gameMenu.Show();
-      }*/
-      if (_game == null)
         return;
-      /*var mouse = OpenTK.Input.Mouse.GetState();
-      if ((mouse[MouseButton.Left]) || (mouse[MouseButton.Right]))
-      {
-      }*/
+      }
       _game.Tick(new Point(this.Mouse.X, this.Mouse.Y));
-      //_game.Render();
-      if (!_game.Lose && !_game.Won)
+      if(!_game.Lose && !_game.Won)
+      {
         return;
+      }
       MessageBox.Show(_game.Lose
                         ? GameCoClassLibrary.Properties.Resources.Looser_message
                         : GameCoClassLibrary.Properties.Resources.Winner_message);
@@ -199,16 +200,16 @@ namespace Tower_defence_with_OpenGL
     protected override void OnRenderFrame(FrameEventArgs e)
     {
       base.OnRenderFrame(e);
-      if (_gameMenu != null)
+      if(_gameMenu != null)
       {
         _gameMenu.Show();
       }
-      if (_game != null)
+      if(_game != null)
+      {
         _game.Render();
+      }
       _graphObject.Render();
       SwapBuffers();
     }
-
   }
-
 }
