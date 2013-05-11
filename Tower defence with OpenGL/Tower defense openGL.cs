@@ -8,6 +8,7 @@ using GraphicLib.Interfaces;
 using GraphicLib.OpenGL;
 using OpenTK;
 using OpenTK.Graphics;
+using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using Tower_defence_with_OpenGL.Properties;
 using GL = OpenTK.Graphics.OpenGL.GL;
@@ -150,9 +151,10 @@ namespace Tower_defence_with_OpenGL
 
     private Program()
       : base(
-        Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 32, stencil: 0, samples: 8),
+        Settings.WindowWidth, Settings.WindowHeight, new GraphicsMode(color: 32, depth: 0, stencil: 0, samples: 8),
         "Tower defense OpenGl Beta")
     {
+      GL.Enable(EnableCap.PolygonSmooth);
       VSync = VSyncMode.On;
       _graphObject = new OpenGLGraphic(this.ClientSize);
       _currentScale = 1.0f;
