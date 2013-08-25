@@ -155,7 +155,7 @@ namespace Tower_defence_with_OpenGL
         "Tower defense OpenGl Beta")
     {
       GL.Enable(EnableCap.PolygonSmooth);
-      VSync = VSyncMode.On;
+      VSync = VSyncMode.Adaptive;
       _graphObject = new OpenGLGraphic(this.ClientSize);
       _currentScale = 1.0f;
       _gameMenu = new MainMenu(_graphObject);
@@ -168,11 +168,6 @@ namespace Tower_defence_with_OpenGL
       base.OnLoad(e);
       OnResize(e);
     }
-
-    /*protected override void OnResize(EventArgs e)
-    {
-      base.OnResize(e);
-    }*/
 
     protected override void OnUpdateFrame(FrameEventArgs e)
     {
